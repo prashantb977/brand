@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>World-Class Showcase</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HERO SECTION -->
+  <header class="hero">
+    <video autoplay muted loop id="heroVideo">
+      <source src="homepage.mp4" type="video/mp4">
+    </video>
+    <div class="hero-content">
+      <h1>Empowering Innovation</h1>
+      <p>Design, Develop, Deliver — Globally.</p>
+      <a href="#features" class="btn">Explore More</a>
+    </div>
+  </header>
+
+  <!-- FEATURES SECTION -->
+  <section id="features" class="features">
+    <h2>Our Services</h2>
+    <video autoplay muted loop class="bg-video">
+      <source src="features-services.mp4" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
+    <div class="feature-cards">
+      <div class="card">Creative Design</div>
+      <div class="card">Development</div>
+      <div class="card">Brand Strategy</div>
+    </div>
+  </section>
+
+  <!-- CUSTOMERS SECTION -->
+  <section class="customers">
+    <h2>Our Impact</h2>
+    <video autoplay muted loop class="bg-video">
+      <source src="customer-section.mp4" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
+    <div class="stats">
+      <div class="stat">
+        <span class="counter" data-target="5000">0</span>
+        <p>Happy Clients</p>
+      </div>
+      <div class="stat">
+        <span class="counter" data-target="250">0</span>
+        <p>Projects Delivered</p>
+      </div>
+      <div class="stat">
+        <span class="counter" data-target="15">0</span>
+        <p>Years Experience</p>
+      </div>
+    </div>
+    <img src="graph.png" alt="Growth Graph" class="graph">
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <h2>Client Testimonials</h2>
+    <video autoplay muted loop class="bg-video">
+      <source src="testimonials.mp4" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
+    <div class="testimonial-slider">
+      <div class="slide">"Exceptional team & results!" - Anna</div>
+      <div class="slide">"Transformed our vision into reality." - Mark</div>
+      <div class="slide">"Outstanding quality & support." - Sara</div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO SHOWCASE -->
+  <section class="portfolio">
+    <h2>Our Work</h2>
+    <video autoplay muted loop class="bg-video">
+      <source src="showcase work.mp4" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
+    <div class="portfolio-grid">
+      <div class="portfolio-item">Project A</div>
+      <div class="portfolio-item">Project B</div>
+      <div class="portfolio-item">Project C</div>
+    </div>
+  </section>
+
+  <!-- POPUP -->
+  <div class="popup" id="popup">
+    <p>🎉 Special Offer Just For You!</p>
+    <button onclick="closePopup()">Got It</button>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
